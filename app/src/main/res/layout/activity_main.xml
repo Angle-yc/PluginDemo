@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angle.pluginapkdemo.MainActivity">
+
+    <Button
+        android:onClick="load"
+        android:layout_marginTop="20dp"
+        android:text="下载Apk"
+        android:textColor="#fff"
+        android:background="#00aaff"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:onClick="jump"
+        android:text="跳转Apk"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="#00aaff"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+</LinearLayout>
